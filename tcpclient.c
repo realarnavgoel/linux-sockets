@@ -72,9 +72,3 @@ int main(int argc, char *argv[]){
 	close(sock_fd);
 	return 0;
 }
-<<<<<<< HEAD
-
-
-
-=======
->>>>>>> 0c986491cdcb3eb2664bb63633daef131dd11203

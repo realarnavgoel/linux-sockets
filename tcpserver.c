@@ -72,19 +72,10 @@ int main(int argc, char *argv[]){
 		else
 		{//parent process
 			close(newsock_fd);
-<<<<<<< HEAD
 		}	
 		signal(SIGCHLD,(signal_handler));	
 		//close(newsock_fd);
 	}while(1);
-	
-=======
-		}
-		signal(SIGCHLD,signal_handler);
-		//close(newsock_fd);
-	}while(1);
-
->>>>>>> 0c986491cdcb3eb2664bb63633daef131dd11203
 	close(sock_fd);
 	return 0;
 
@@ -94,11 +85,7 @@ int msg_exchg(int newsock_fd){
 
 	size_t nbytes;
 	char *pbuff=buffer;
-<<<<<<< HEAD
 	char *newmsg = "Message Received. Nice to Meet you, Arnav";
-=======
-	char *newmsg = "OK, Nice to Meet you";
->>>>>>> 0c986491cdcb3eb2664bb63633daef131dd11203
 	if((nbytes = recv(newsock_fd,pbuff,255,0)) > 0)
 	{
 		fprintf(stdout,"Received: %s\n",pbuff);

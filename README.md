@@ -1,2 +1,4 @@
 # linux-sockets
-Recipe for setting up concurrent, connection oriented servers using STREAM Sockets in Linux
+Recipes for setting up - 
+1. Concurrent, Connection Oriented Servers using STREAM Sockets in Linux
+2. Iterative, Connectionless Servers using DGRAM Sockets in Linux
